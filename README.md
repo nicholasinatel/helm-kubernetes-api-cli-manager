@@ -24,7 +24,7 @@ Premises:
 
 Just Run at root project directory:
 ```
-go mod tidy
+go build
 ```
 
 ---
