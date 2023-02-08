@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: suseconfig
+  namespace: default
+data:
+  candidate: {{ .Values.candidate }}
